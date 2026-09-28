@@ -139,7 +139,11 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="laba1truba.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="objects.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="objects.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
